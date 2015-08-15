@@ -6,8 +6,10 @@ $slashCommand = "/highfive";
 $slashToken = "SLASH COMMAND TOKEN";
 $slackWebhook = "INCOMING SLACK WEBHOOK";
 $highfiveAccount = "HIGHFIVE ACCOUNT/COMPANY NAME";
-$botUsername = "Highfive";
-$botIcon = ":highfive:";
+
+// Optional if reusing an existing webhook
+# $botUsername = "Highfive";
+# $botIcon = ":highfive:";
 
 
 if($_POST['token'] == $slashToken && $_POST['command'] == $slashCommand){
